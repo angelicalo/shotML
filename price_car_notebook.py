@@ -11,6 +11,7 @@ from fastai.tabular.core import cont_cat_split
 from yellowbrick.classifier import confusion_matrix
 from yellowbrick.classifier import classification_report
 
+import sklearn
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.compose import ColumnTransformer
 from sklearn.model_selection import train_test_split,\
