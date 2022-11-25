@@ -42,7 +42,7 @@ char_index = ['Modelo', 'Transmissão', 'Combustível', 'Ano', 'Milhas']
 char = [model, transmission, fuelType, year, mileage]
 
 if None in char:
-    st.write('Preciso de todas as características solicitadas para tentar acertar qual é o seu animal')
+    st.write('Preciso de todas as características solicitadas para te ajudar na precificação.')
 else:
     car_user['model_'+ model] = 1
     car_user['transmission_' + transmission] = 1
@@ -57,4 +57,4 @@ else:
     
     price_pred = reg.predict(np.array(car_user).reshape(1,-1))
     
-    st.write(f'Sugerimos o preço de venda para o seu carro sendo R${np.round(price_pred[0],2)}')                 
+    st.write(f'Sugerimos o preço de venda para o seu carro sendo: R${np.round(price_pred[0],2)}')                 
