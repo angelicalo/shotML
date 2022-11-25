@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 st.title('Faça uma simulação do preço de revenda do seu carro Ford')
-st.image(Image.open('carro_fundo.jpg'))
+st.image(Image.open('carro_fundo.jpg'),width=1)
 
 with open('lin_reg_ford.pickle', 'rb') as model:
     reg = pickle.load(model)
