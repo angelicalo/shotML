@@ -9,6 +9,8 @@ st.set_page_config(
     page_icon=":car:"
 )
 
+st.title('Faça uma simulação do preço de revenda do seu carro Ford')
+
 with open('lin_reg_ford.pickle', 'rb') as model:
     reg = pickle.load(model)
 
