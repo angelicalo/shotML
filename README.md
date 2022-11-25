@@ -7,3 +7,9 @@ A base de dados utilizada está disponível em: https://www.kaggle.com/datasets/
 O conjunto de dados contém informações de preço, transmissão, quilometragem, tipo de combustível, imposto rodoviário, milhas por galão (mpg) e tamanho do motor.
 
 o notebook deste trabalho se encontra em https://www.kaggle.com/code/angelicalo/shotmlfinal
+
+Inicialmente fois feita um estudo descritivo do conjunto de datos e alguns tratamentos.
+
+Foram selecionados alguns feature principais para criação da aplicação usando o streamlit.
+
+O codigo da aplicação está disponivel dos arquivos e deve ser rodaro usando o streamlit.
