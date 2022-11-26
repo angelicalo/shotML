@@ -8,8 +8,8 @@ O conjunto de dados contém informações de preço, transmissão, quilometragem
 
 o notebook deste trabalho se encontra em https://www.kaggle.com/code/angelicalo/shotmlfinal
 
-Inicialmente fois feita um estudo descritivo do conjunto de datos e alguns tratamentos.
+Inicialmente foi feito um estudo descritivo do conjunto de datos e alguns tratamentos nos mesmos.
 
-Foram selecionados alguns feature principais para criação da aplicação usando o streamlit.
+Foram selecionados algumas features principais para criação da aplicação usando o streamlit.
 
-O codigo da aplicação está disponivel dos arquivos e deve ser rodaro usando o streamlit.
+O codigo da aplicação está disponivel dos arquivos. A aplicação está disponível em https://angelicalo-shotml-price-car-user-st-n6a583.streamlit.app/
